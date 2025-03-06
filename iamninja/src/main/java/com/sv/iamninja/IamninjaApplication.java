@@ -32,6 +32,7 @@ public class IamninjaApplication {
 			Arrays.sort(beanNames);
 			for (String beanName : beanNames) {
 				System.out.println(beanName);
+				//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
 			}
 
 		};
