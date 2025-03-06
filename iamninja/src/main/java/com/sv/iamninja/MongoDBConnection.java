@@ -28,7 +28,7 @@ public class MongoDBConnection {
 	                .append("email", "john@example.com")
 	                .append("age", 33);
 
-	        // Insert the document into the collection
+	        // Insert the document into th
 	        collection.insertOne(document);
 
 	        System.out.println("Document inserted successfully!");
