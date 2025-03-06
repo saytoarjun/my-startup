@@ -23,7 +23,7 @@ public class MongoDBConnection {
 	        // Create or access the collection (if it doesn't exist, it will be created)
 	        MongoCollection<Document> collection = database.getCollection("users");
 
-	        // Create a document to insert
+	        // Create a document to inse
 	        Document document = new Document("name", "John Doe")
 	                .append("email", "john@example.com")
 	                .append("age", 33);
